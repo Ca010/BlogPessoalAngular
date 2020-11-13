@@ -13,6 +13,11 @@ import { FeedComponent } from './feed/feed.component';
 import { PerfilLateralComponent } from './perfil-lateral/perfil-lateral.component';
 import { LoginComponent } from './login/login.component';
 import { CadastroComponent } from './cadastro/cadastro.component';
+import { PutPostagemComponent } from './put-postagem/put-postagem.component';
+import { PutTemaComponent } from './put-tema/put-tema.component';
+import { DeletePostagemComponent } from './delete-postagem/delete-postagem.component';
+import { DeleteTemaComponent } from './delete-tema/delete-tema.component';
+import { PostTemaComponent } from './post-tema/post-tema.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +28,12 @@ import { CadastroComponent } from './cadastro/cadastro.component';
     FeedComponent,
     PerfilLateralComponent,
     LoginComponent,
-    CadastroComponent
+    CadastroComponent,
+    PutPostagemComponent,
+    PutTemaComponent,
+    DeletePostagemComponent,
+    DeleteTemaComponent,
+    PostTemaComponent
   ],
   imports: [
     BrowserModule,
